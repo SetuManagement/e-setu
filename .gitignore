@@ -1,4 +1,4 @@
-API/dist/*
-UI/dist/*
-API/node_modules/*
-UI/node_modules/*
+ESetu.API/dist/*
+ESetu.UI/dist/*
+ESetu.API/node_modules/*
+ESetu.UI/node_modules/*
