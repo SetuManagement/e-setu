@@ -1,1 +1,4 @@
+API/dist/*
+UI/dist/*
 API/node_modules/*
+UI/node_modules/*
