@@ -2,6 +2,8 @@ import { APP_INITIALIZER, NgModule } from "@angular/core";
 import { PrimeNGConfig } from "primeng/api";
 import { ButtonModule } from "primeng/button";
 import { RippleModule } from "primeng/ripple";
+import { SkeletonModule } from 'primeng/skeleton';
+import { DialogModule } from 'primeng/dialog';
 
 const initializeAppFactory = (primeConfig: PrimeNGConfig) => () => {
     primeConfig.ripple = true;
@@ -11,11 +13,15 @@ const initializeAppFactory = (primeConfig: PrimeNGConfig) => () => {
     declarations: [],
     imports: [
         ButtonModule,
-        RippleModule
+        RippleModule,
+        SkeletonModule,
+        DialogModule
     ],
     exports: [
         ButtonModule,
-        RippleModule
+        RippleModule,
+        SkeletonModule,
+        DialogModule
 
     ],
     providers: [
